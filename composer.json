@@ -1,0 +1,19 @@
+{
+    "name": "balllaga/unit",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey",
+            "email": "test@example.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "11",
+        "larapack/dd": "^1.1"
+    }
+}
